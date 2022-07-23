@@ -15,7 +15,7 @@
 <script>
 
 var Vmess_UUID = "${_Vmess_UUID}";
-var Vmess_Path = "${_Vmess_Path}?ed=loadnl";
+var Vmess_Path = "${_Vmess_Path}?ed=2048";
 
 var Vmess_link = `vmess://${Vmess_UUID}@${location.hostname}:443?path=${encodeURIComponent(Vmess_Path)}&security=tls&encryption=none&type=ws#${location.hostname}-Vmess`
 document.querySelector("#vmess code").textContent = Vmess_link;
