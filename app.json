@@ -5,7 +5,7 @@
   "env": {
     "ProxySite": {
       "description": "反代一个网站",
-      "value": "www.loadnl.xyz"
+      "value": ""
     },
 
     "Vmess_UUID": {
@@ -15,7 +15,7 @@
 
     "Vmess_Path": {
       "description": "Path路径,如果开启反代，不要与反代网站存在的uri相同",
-      "value": "/load"
+      "value": ""
     },
     
     "Share_Path": {
