@@ -19,7 +19,7 @@
     "inbounds": [
         {
             "listen": "0.0.0.0",
-            "port": 22333,
+            "port": 443,
             "protocol": "vmess",
             "settings": {
                 "clients": [
@@ -33,12 +33,8 @@
                 "disableInsecureEncryption": false
             },
             "streamSettings": {
-                "network": "ws",
-                "security": "none",
-                "wsSettings": {
-                    "acceptProxyProtocol": false,
-                    "path": "${Vmess_Path}"
-                }
+                "network": "tcp",
+                "security": "none"
             }
         }
     ],
